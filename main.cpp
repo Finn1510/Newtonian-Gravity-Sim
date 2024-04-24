@@ -22,7 +22,7 @@ int main(int argc, char* args[]) {
     sim.celestialBodies.push_back(std::make_shared<Planet>(400, center + Vector2(0, 300), Vector2(-135/2, 0), planetColor2, 10));
     
     const SDL_Color planetColor3 = {100, 119, 186, 255};
-    sim.celestialBodies.push_back(std::make_shared<Planet>(25, center + Vector2(SCREEN_WIDTH/4, 0), Vector2(0, 120/2), planetColor3, 8));
+    sim.celestialBodies.push_back(std::make_shared<Planet>(250, center + Vector2(SCREEN_WIDTH/4, 0), Vector2(0, 60), planetColor3, 8));
 
     //Simulation loop
     while(true){
